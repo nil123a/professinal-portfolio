@@ -7,6 +7,7 @@ body{
     display: flex;
     background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 10%;
 }
 
 .header-pert{
@@ -27,6 +28,23 @@ body{
 h1{
     font-size: 100%;
 }
-.header-pert{
+.header-pert img{
+    width: 1oo%;
+}
+
+#dream-area{
+    display: flex;
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.dream-area-pert{
+    width: 50%;
+    padding-right:5%;
+
+
+}
+.dream-area-pert img{
     width: 1oo%;
 }
